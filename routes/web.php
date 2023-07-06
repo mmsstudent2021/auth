@@ -18,7 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get("/show-me",fn() => "hein htet zan");
+Route::get("/show-me",fn() => "hein htet zan from MMS IT");
+
+Route::get("/our-office",fn() => "MMS One Stop IT Solutions");
 
 Route::get('/dashboard', function () {
     return view('dashboard');
